@@ -3,6 +3,7 @@
 body {
 font-family: 'Merriweather', 'Roboto',sans-serif;
 background-color: white;
+
 }
 
 @media only screen and (max-width: 1295px) {
@@ -10,6 +11,8 @@ background-color: white;
     width:100%;
   }
 }
+
+
 /* 
 @media only screen and (min-width: 1296px){
   .cell{
@@ -26,6 +29,9 @@ background-color: white;
 }
 
 #info{
+  text-align: center;
+}
+.footer{
   text-align: center;
 }
 
