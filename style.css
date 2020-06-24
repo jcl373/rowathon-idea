@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@306;403&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+body {
+font-family: 'Merriweather', sans-serif;
+background-color: white;
+}
+
+@media only screen and (max-width: 1295px) {
+  body {
+    background-color: lightblue;
+  }
+  .cell{
+    width:100%
+  }
+}
+@media only screen and (min-width: 1296px){
+  .cell{
+    float: left;
+    width: 25%;
+  }
+}
+#header{
+  padding: 30px;
+  color: black;
+  font-size: 45px;
+  margin: auto;
+  text-align: center;
+}
+
+#info{
+  text-align: center;
+}
+
+.maincharts{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.charts{
+  padding: 40px;
+}
+
+.schools{
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-rows: repeat(4,300px);
+  padding: 40px;
+  height: auto;
+  width: auto;
+  
+}
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#row1{
+  /* width: 100%; */
+  flex-basis: 100%;
+}
+
+#row2{
+  /* width: 100%; */
+  flex-basis: 100%;
+}
+
+
+.cell{
+  height: 600px;
+  width: 300px;
+  box-sizing: border-box;
+  display: grid;
+  flex-basis: 21%
+
+}
+
+.donors .meters{
+  box-sizing: border-box;
+  margin-left: auto;
+
+}
+
+.schimg{
+  box-sizing: border-box;
+  padding: 60px;
+  height: 300px;
+  
+}
+
