@@ -1,0 +1,9 @@
+body{
+background-image: url('/resources/background.jpg');
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+height: auto;
+
+}
+
